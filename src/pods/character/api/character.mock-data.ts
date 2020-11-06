@@ -2,7 +2,7 @@ import { Character } from './character.api-model';
 
 export const mockCharacterCollection: Character[] = [
   {
-    id: 1,
+    id: "1",
     name: 'Rick Sanchez',
     status: 'Alive',
     species: 'Human',
@@ -17,7 +17,7 @@ export const mockCharacterCollection: Character[] = [
     comments: '',
   },
   {
-    id: 2,
+    id: "2",
     name: 'Morty Smith',
     status: 'Alive',
     species: 'Human',

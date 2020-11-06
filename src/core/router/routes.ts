@@ -9,10 +9,10 @@ interface SwitchRoutes {
 export const switchRoutes: SwitchRoutes = {
   root: '/',
   characterCollection: '/characters',
-  editCharacter: `/characters/:id`,
+  editCharacter: '/characters/:id',
 };
 
-type NavigationFunction = (id: number) => string;
+type NavigationFunction = (id: string) => string;
 
 interface LinkRoutes extends Omit<SwitchRoutes, 'editCharacter'> {
   editCharacter: NavigationFunction;

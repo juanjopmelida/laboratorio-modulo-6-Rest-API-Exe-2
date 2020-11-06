@@ -6,7 +6,7 @@ import * as classes from './character-collection.styles';
 
 interface Props {
   characterCollection: CharacterEntityVM[];
-  onEdit: (id: number) => void;
+  onEdit: (id: string) => void;
 }
 
 export const CharacterCollectionComponent: React.FunctionComponent<Props> = (

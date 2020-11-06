@@ -25,11 +25,11 @@ export const CharacterComponent: React.FunctionComponent<Props> = (props) => {
     >
       {() => (
         <Form className={classes.root}>
-          <TextFieldComponent name="name" label="Name" />
-          <TextFieldComponent name="species" label="Species" />
+          <TextFieldComponent name="name" label="name" />
+          <TextFieldComponent name="species" label="species" />
           <TextFieldComponent
             name="comments"
-            label="Comments"
+            label="comments"
             multiline={true}
             rows={3}
             rowsMax={5}

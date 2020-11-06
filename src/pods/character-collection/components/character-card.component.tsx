@@ -14,7 +14,7 @@ import * as classes from './character-card.styles';
 
 interface Props {
   character: CharacterEntityVM;
-  onEdit: (id: number) => void;
+  onEdit: (id: string) => void;
 }
 
 export const CharacterCard: React.FC<Props> = (props) => {

@@ -12,7 +12,7 @@ export const CharacterContainer: React.FunctionComponent = (props) => {
   const [character, setCharacter] = React.useState<Character>(
     createEmptyCharacter()
   );
-  const id: number = useParams();
+  const {id} = useParams();
   const history = useHistory();
 
   const handleLoadCharacter = async () => {
