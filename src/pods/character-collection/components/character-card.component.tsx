@@ -22,7 +22,7 @@ export const CharacterCard: React.FC<Props> = (props) => {
   return (
     <Card>
       <CardHeader
-        avatar={<Avatar aria-label="Actor">{character.image}</Avatar>}
+        avatar={<Avatar aria-label="Actor">{character.name.substring(0,1)}</Avatar>}
         title={character.name}
         subheader={character.species}
       />
