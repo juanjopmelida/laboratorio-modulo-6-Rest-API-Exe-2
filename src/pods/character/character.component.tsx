@@ -25,8 +25,8 @@ export const CharacterComponent: React.FunctionComponent<Props> = (props) => {
     >
       {() => (
         <Form className={classes.root}>
-          <TextFieldComponent name="name" label="name" />
-          <TextFieldComponent name="species" label="species" />
+          <TextFieldComponent name="name" label="name" disabled= {true} />
+          <TextFieldComponent name="species" label="species"disabled= {true} />
           <TextFieldComponent
             name="comments"
             label="comments"

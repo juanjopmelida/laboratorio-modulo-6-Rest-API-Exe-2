@@ -13,9 +13,9 @@ export const useCharacterCollection = () => {
     try {
       getCharacterCollection().then((result) =>
         setCharacterCollection(mapToCollection(result, mapFromApiToVm))
-      );
+      )
     } catch (error) {
-
+      alert(`Error loading character: ${error}`);
     }
   };
 

@@ -37,10 +37,10 @@ export const CharacterContainer: React.FunctionComponent = (props) => {
       if (success) {
         history.goBack();
       } else {
-        alert('Error on save character');
+        alert('Error saving character');
       }
     } catch (error) {
-      alert('Error on save character');
+      alert(`Error saving character: ${error}`);
     }
   };
 
